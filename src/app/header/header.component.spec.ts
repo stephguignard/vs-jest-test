@@ -8,9 +8,8 @@ describe('HeaderComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
-    })
-    .compileComponents();
+      declarations: [HeaderComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -21,5 +20,6 @@ describe('HeaderComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+    expect(component.tata).toBe('titi');
   });
 });
